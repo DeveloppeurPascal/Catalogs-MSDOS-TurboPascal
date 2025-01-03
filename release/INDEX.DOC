@@ -1,0 +1,79 @@
+                         INDEX
+
+   Ces utilitaires permettent de g‚rer  une  liste  comportant  plusieurs 
+champs. Le tri est possible pour chaque champ, on peut  aussi  sauver  la 
+liste tri‚e (ou pas) dans un fichier .LST au format ASCII que l'on pourra 
+ainsi reprendre dans d'autres logiciels.
+
+*************************************************************************
+   K7_INDEX 1.0: (09/05/1991)
+
+* Cette version s'occupe des K7  vid‚o,  chaque  ‚l‚ment  contient  trois 
+champs:   - un code pour la cassette (ex: son num‚ro),
+          - le titre du film correspondant,
+          - la dur‚e du film.
+
+* Options du logiciel:
+     F1 - affichage d'un ‚cran d'aide.
+     F10, Q, ESC - Sortie du logiciel aprŠs sauvegarde  de  la  liste  en 
+cours.
+     I - Insertion d'un film.
+     L - Sauvegarde de la liste sous  forme  ASCII  (fichier  d'extension 
+LST).
+     M - Modification du film en video invers‚e.
+     S - Suppression du film en video invers‚e.
+     T - Tri des films en m‚moire:
+          Trois possibilit‚s de tris: par code de la K7,  par  titre,  ou 
+          par dur‚e.
+
+* Les d‚placements pour voir la liste des films se font avec les  fleches 
+du curseur, PgUp, PgDn, Home et End.
+
+* Par d‚faut, le logiciel travaille sur le fichier K7_INDEX.K7;  si  vous 
+d‚sirez faire plusieurs listes diff‚rents, donnez le nom  du  fichier  en 
+paramŠtre au programme lorsque vous l'appelez sous DOS.
+     ex: A:\> B:K7_INDEX LISTE
+          Cette commande va lancer K7_INDEX (qui est dans le lecteur B:), 
+          et va utiliser le fichier de donn‚es de nom LISTE.K7  situ‚  en 
+          A:\
+
+* Lorsque vous saisissez une valeur (pour le type de tris  par  exemple), 
+utilisez les touches + et - pour changer la valeur courante. L'appuit sur 
+ESC vous donnera la valeur par d‚faut.
+
+*************************************************************************
+   BOOK_INDEX 2.0: (10/09/1991)
+
+* Cette version s'occupe d'une liste de livres dont voici les champs:
+          - collection,
+          - titre,
+          - auteur.
+
+* Le programme fonctionne comme K7_INDEX  1.0,  se  reporter  donc  …  ce 
+paragraphe.
+
+*************************************************************************
+   DISK_INDEX 3.0: (11/09/1991)
+
+* Cette version s'occupe d'une liste de programmes  sur  disquettes  avec 
+les champs suivants:
+          - auteur, ou editeur du programme ou de la disquette,
+          - titre du logiciel,
+          - nombre de disquettes occup‚es.
+
+*  Le  programme  fonctionne  comme  K7_INDEX  1.0,  se  reporter  au 
+paragraphe qui lui est consacr‚.
+
+******************************************************************
+Vous pouvez me contacter pour me donner des id‚es de programmes et 
+utilitaires,  mais  aussi  pour  m'indiquer  les  bugs  que   vous 
+trouverez dans mes programmes … l'adresse suivante (ou en personne 
+si vous me connaissez !):
+
+
+(maj du 03/01/2025 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developpeur-pascal.fr ou https://olfsoftware.fr pour toute question)
+
+
+******************************************************************
+Mise … jour de cette documentation le 25/06/1992.
+
